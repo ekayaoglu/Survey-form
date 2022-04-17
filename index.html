@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+
+<h1 id="title">Survey</h1>
+<p id="description">This is survey to complete FCC task nr2</p>
+<form id="survey-form">
+  
+  <label for="name" id="name-label">Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name..." required></input>
+<br><br>
+  <label for="email" id="email-label">Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email..." required></input>
+<br><br>
+<label for="number" id="number-label"> Age </label>
+  <input type="number" id="number" name="number" placeholder="Enter your age" min="18" max="99"></input>
+<br><br>
+<label for="dropdown" id="job" > Job Title </label>
+<select id="dropdown" >
+  <option value="front">Front-End</option>
+  <option value="Back">Back-End</option>
+  <option value="Back">UI/UX</option>
+</select>
+<br><br>
+<form>
+  <label id="Experience">Experience</label><br>
+  <label for="junior">
+    <input id="junior" type="radio" id="junior" name="experience" value="junior">Junior</label>
+  
+  <label for="mid">
+    <input id="mid" type="radio" id="mid" name="experience" value="mid">Mid</label>
+  
+  <label for="Senior">
+    <input id="senior" type="radio" id="senior" name="experience" value="senior">Senior</label><br>
+  
+  <label id="Place">Place:</label><br>
+  <label for="remote">
+    <input id="remote" type="checkbox" id="remote" name="experience" value="Remote">Remote</label>
+  
+  <label for="Hybrid">
+    <input id="Hybrid" type="checkbox" id="Hybrid" name="experience" value="Hybrid">Hybrid</label>
+  
+  <label for="Office">
+    <input id="Office" type="checkbox" id="Office" name="experience" value="Office">Office</label><br><br>
+  
+  <label for="textarea">Say something about yourself:</label><br><br>
+    <textarea id="textarea" type="text" value="write something" name="textarea" rows="5" colum="33">Your message...</textarea><br>
+  
+  <button id="submit">Submit</button>
+  
+  
+</form>
+    
+</body>
+</html>
